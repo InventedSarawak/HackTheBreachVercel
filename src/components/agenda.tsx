@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import {
     ArrowRight,
@@ -50,7 +50,7 @@ interface AgendaData {
     settings: AgendaSettings
 }
 
-// Type assertion for imported JSON - move outside component
+// Type assertion for imported JSON
 const agendaData = agendaDataRaw as unknown as AgendaData
 
 // Icon mapping for event types
@@ -82,11 +82,28 @@ const EventTypeIcon = ({ type }: { type: EventType }) => {
 
 export default function Agenda() {
     const [showAllDays, setShowAllDays] = useState(false)
+    const [agendaDays, setAgendaDays] = useState<AgendaDay[]>([])
+    const [loading, setLoading] = useState(true)
 
-    // Use the imported data directly - no state or useEffect needed
-    const visibleDays = showAllDays
-        ? agendaData?.days || []
-        : (agendaData?.days || []).slice(0, 3)
+    // Process data on component mount
+    useEffect(() => {
+        try {
+            // Set agenda days from the JSON data
+            setAgendaDays(agendaData.days)
+        } catch (error) {
+            console.error('Error loading agenda data:', error)
+            // Set fallback data if needed
+        } finally {
+            setLoading(false)
+        }
+    }, [])
+
+    // Determine visible days based on showAllDays state
+    const visibleDays = showAllDays ? agendaDays : agendaDays.slice(0, 3)
+
+    if (loading) {
+        return <div>Loading agenda...</div>
+    }
 
     return (
         <section id="agenda" className="mb-6 py-16 md:py-24">
@@ -194,7 +211,7 @@ export default function Agenda() {
                 </div>
 
                 {/* Toggle Button */}
-                {agendaData.days.length > 3 && (
+                {agendaDays.length > 3 && (
                     <div className="mt-8 text-center">
                         <Button
                             variant={showAllDays ? 'secondary' : 'outline'}
