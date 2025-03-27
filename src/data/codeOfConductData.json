@@ -1,0 +1,116 @@
+{
+    "pageTitle": "Code of Conduct",
+    "pageDescription": "Our event is dedicated to providing a harassment-free and inclusive experience for everyone, regardless of background or identity",
+
+    "introduction": {
+        "title": "Our Commitment",
+        "paragraphs": [
+            "Hack The Breach is committed to creating a safe, professional, and collaborative online environment for all participants. As this event takes place virtually via Google Meet, we have developed specific guidelines to ensure everyone can participate fully and comfortably.",
+            "By participating in Hack The Breach, you agree to abide by this Code of Conduct in all event spaces, including video calls, chat channels, collaborative platforms, and social media discussions related to the event."
+        ]
+    },
+
+    "rules": [
+        {
+            "id": "respect",
+            "title": "Respectful Communication",
+            "items": [
+                "Use welcoming and inclusive language",
+                "Respect differing viewpoints and experiences",
+                "Accept constructive criticism gracefully",
+                "Focus on what's best for the community and event",
+                "Show empathy towards other participants",
+                "Use appropriate language in chat and verbal discussions"
+            ]
+        },
+        {
+            "id": "online",
+            "title": "Online Environment Guidelines",
+            "items": [
+                "Keep your camera on during workshops when possible",
+                "Mute your microphone when not speaking",
+                "Use the \"raise hand\" feature to ask questions",
+                "Respect speakers by avoiding interruptions",
+                "Keep chat discussions relevant to the current topic",
+                "Do not share meeting links with unauthorized individuals"
+            ]
+        },
+        {
+            "id": "prohibited",
+            "title": "Prohibited Behavior",
+            "items": [
+                "Harassment, intimidation, or discrimination in any form",
+                "Inappropriate screen sharing or background content",
+                "Disruptive use of video, audio, or chat features",
+                "Offensive comments related to gender, sexual orientation, disability, physical appearance, race, or religion",
+                "Posting or threatening to post personally identifying information (\"doxing\")",
+                "Unauthorized recording or screenshots of participants",
+                "Any illegal activity or encouragement of illegal activity",
+                "Sustained disruption of talks or other events"
+            ]
+        },
+        {
+            "id": "hackathon",
+            "title": "Hackathon-Specific Rules",
+            "items": [
+                "Only attack designated infrastructure and challenge environments",
+                "Do not attempt to disrupt other teams or attack their systems",
+                "Report any vulnerabilities in the platform to organizers immediately",
+                "Do not share flags or solutions during the competition",
+                "Follow fair play principles - no cheating or exploiting loopholes",
+                "Respect time limits and submission deadlines"
+            ]
+        },
+        {
+            "id": "privacy",
+            "title": "Privacy & Data Protection",
+            "items": [
+                "Respect the privacy of all participants",
+                "Do not share or collect personal information of other participants",
+                "Get explicit permission before sharing screenshots that include others",
+                "Keep breakout room discussions confidential when requested",
+                "Follow appropriate data handling practices in the hackathon"
+            ]
+        }
+    ],
+
+    "reporting": {
+        "title": "Reporting Violations",
+        "description": "If you experience or witness behavior that violates our Code of Conduct, please report it immediately:",
+        "methods": [
+            {
+                "name": "Direct Message",
+                "details": "Contact any staff member in the Google Meet chat with a private message"
+            },
+            {
+                "name": "Email",
+                "details": "conduct@hackthebreach.com",
+                "isLink": true,
+                "url": "mailto:conduct@hackthebreach.com"
+            },
+            {
+                "name": "Reporting Form",
+                "details": "Submit through our anonymous reporting form",
+                "isLink": true,
+                "linkText": "anonymous reporting form",
+                "url": "#"
+            }
+        ],
+        "note": "All reports will be handled with discretion and confidentiality. We are committed to responding promptly to any concerns and taking appropriate action."
+    },
+
+    "enforcement": {
+        "title": "Enforcement",
+        "paragraphs": [
+            "Participants asked to stop any harassing or disruptive behavior are expected to comply immediately.",
+            "If a participant engages in behavior that violates this Code of Conduct, the organizers may take any action they deem appropriate, including:"
+        ],
+        "consequences": [
+            "Issuing a verbal or written warning",
+            "Temporary muting or removal from specific sessions",
+            "Expulsion from the entire event without refund",
+            "Banning from future events",
+            "Reporting to relevant authorities if appropriate"
+        ]
+    }
+}

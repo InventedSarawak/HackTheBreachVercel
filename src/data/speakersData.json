@@ -1,0 +1,240 @@
+{
+    "pageTitle": "Meet The Speakers",
+    "pageDescription": "Learn from industry experts at the forefront of cybersecurity innovation and defense",
+    "viewAllButtonText": "View All Speakers",
+    "hideAllButtonText": "Hide Full Lineup",
+
+    "speakers": [
+        {
+            "id": "1",
+            "name": "Dr. Saumya Bhadauria",
+            "role": "Assistant Professor",
+            "company": "ABV-IIIT Gwalior, Madhya Pradesh",
+            "bio": "",
+            "image": "/speakers/saumya.jpeg",
+            "social": {},
+            "title": " IoT and Industrial Cyber Physical System (CPS) Security",
+            "featured": false
+        },
+        {
+            "id": "2",
+            "name": "P. Santhi Thilagam",
+            "role": "Professor",
+            "company": "NIT Surathkal, Karnataka",
+            "bio": "",
+            "image": "/speakers/santhi.jpeg",
+            "social": {
+                "mail": "mailto:santhi@nitk.edu.in",
+                "linkedin": "https://www.linkedin.com/in/santhi-thilagam-38b54ba/",
+                "website": "https://cse.nitk.ac.in/faculty/p-santhi-thilagam"
+            },
+            "title": "Web Services Security",
+            "featured": false
+        },
+        {
+            "id": "3",
+            "name": "Dr. Aditya japa",
+            "role": "Assistant Professor",
+            "company": "Ulster University, UK",
+            "bio": "",
+            "image": "/speakers/adityajapa.jpeg",
+            "social": {
+                "website": "https://pure.ulster.ac.uk/en/persons/aditya-japa"
+            },
+            "title": "Hardware Security Attacks on Edge Devices and Defence Techniques",
+            "featured": false
+        },
+        {
+            "id": "4",
+            "name": "Dr. Imran Malik",
+            "role": "Assistant Professor",
+            "company": "Queen's University, UK",
+            "bio": "",
+            "image": "/speakers/malikimran.jpeg",
+            "social": {
+                "mail": "mailto:m.imran@qub.ac.uk",
+                "website": "https://pure.qub.ac.uk/en/persons/malik-imran"
+            },
+            "title": "Hardware-Based Post-Quantum Cryptography Accelerators: SABER",
+            "featured": false
+        },
+        {
+            "id": "5",
+            "name": "Dr Padmavathi U.",
+            "role": "Assistant Professor",
+            "company": "Shiv Nadar University, Tamil Nadu",
+            "bio": "",
+            "image": "/speakers/padmavathi.jpeg",
+            "social": {},
+            "title": "",
+            "featured": false
+        },
+        {
+            "id": "6",
+            "name": "Dr Pradeep Kumar Bhale",
+            "role": "Assistant Professor",
+            "company": "IIITDM Kancheepuram, Tamil Nadu",
+            "bio": "",
+            "image": "/speakers/pradeep.jpeg",
+            "social": {},
+            "title": "Attack Detection and Mitigation for IoT Ecosystems: Adaptive, Scalable, and Lightweight Approaches",
+            "featured": false
+        },
+        {
+            "id": "7",
+            "name": "Dr. Nkhil Tripathi",
+            "role": "Assistant Professor",
+            "company": "IIT (ISM) Dhanbad, Jharkhand",
+            "bio": "",
+            "image": "/speakers/nikhiltripathi.jpeg",
+            "social": {},
+            "title": "Application-Layer Security",
+            "featured": true
+        },
+        {
+            "id": "8",
+            "name": "Mr. Prajjwal Govil",
+            "role": "Cybersecurity Analyst",
+            "company": "TCS",
+            "bio": "",
+            "image": "/speakers/prajjwal.jpeg",
+            "social": {},
+            "title": "Phishing analysis",
+            "featured": false
+        },
+        {
+            "id": "9",
+            "name": "Prof. John Augustine",
+            "role": "Professor",
+            "company": "IIT Madras, Tamil Nadu",
+            "bio": "",
+            "image": "/speakers/augustine.jpeg",
+            "social": {
+                "linkedin": "https://www.linkedin.com/in/johnaugustine/",
+                "website": "https://www.cse.iitm.ac.in/~augustine/"
+            },
+            "title": "",
+            "featured": false
+        },
+        {
+            "id": "10",
+            "name": "Prof. Durga Toshniwal",
+            "role": "Professor",
+            "company": "IIT Roorkee, Uttarakhand",
+            "bio": "",
+            "image": "/speakers/durgatoshniwal.jpg",
+            "social": {
+                "mail": "mailto:durga.toshniwal@cs.iitr.ac.in"
+            },
+            "title": "",
+            "featured": false
+        },
+        {
+            "id": "11",
+            "name": "Prof. Rajat Subhra Chakraborty",
+            "role": "Professor",
+            "company": "IIT Kharagpur, West Bengal",
+            "bio": "",
+            "image": "/speakers/rajatsubhra.jpeg",
+            "social": {
+                "mail": "mailto:rschakraborty@cse.iitkgp.ac.in"
+            },
+            "title": "Hardware Security",
+            "featured": false
+        },
+        {
+            "id": "12",
+            "name": "Dr. Monosij Maitra",
+            "role": "Assistant Professor",
+            "company": "IIT Kharagpur, West Bengal",
+            "bio": "",
+            "image": "/speakers/monosij.jpeg",
+            "social": {
+                "mail": "mailto:monosij@cse.iitkgp.ac.in"
+            },
+            "title": "Cryptography",
+            "featured": true
+        },
+        {
+            "id": "13",
+            "name": "Dr. Bodhisatwa Mazumdar",
+            "role": "Professor",
+            "company": "IIT Indore, Madhya Pradesh",
+            "bio": "",
+            "image": "/speakers/bodhisatwa.jpg",
+            "social": {
+                "mail": "mailto:bodhisatwa@iiti.ac.in"
+            },
+            "title": "Side-channel Attacks",
+            "featured": true
+        },
+        {
+            "id": "14",
+            "name": "Dr.Sharad Sinha",
+            "role": "Associate Professor",
+            "company": "IIT Goa, Goa",
+            "bio": "",
+            "image": "/speakers/sharad.jpeg",
+            "social": {
+                "mail": "mailto:sharad@iitgoa.ac.in"
+            },
+            "title": "Architecture and Methods for Fine Grained Detection and Mitigation of Cache Side Channel Attacks",
+            "featured": true
+        },
+        {
+            "id": "15",
+            "name": "Dr. Rajesh Gupta",
+            "role": "Assistant Professor",
+            "company": "Nirma University, Gujarat",
+            "bio": "",
+            "image": "/speakers/rajesh.jpeg",
+            "social": {},
+            "title": "",
+            "featured": false
+        },
+        {
+            "id": "16",
+            "name": "Dr. Vimal Kumar Dwivedi",
+            "role": "Assistant Professor",
+            "company": "Ulster University, UK",
+            "bio": "",
+            "image": "/speakers/vimal.jpg",
+            "social": {},
+            "title": "",
+            "featured": false
+        },
+        {
+            "id": "17",
+            "name": "Dr. Gaurav Varshney",
+            "role": "Assistant Professor",
+            "company": "IIT Roorkee, Uttarakhand",
+            "bio": "",
+            "image": "/speakers/gauravvarshney.jpg",
+            "social": {},
+            "title": "Web Application Security and Pentest",
+            "featured": false
+        },
+        {
+            "id": "18",
+            "name": "Prof. Shashikala Tapaswi",
+            "role": "Professor",
+            "company": "ABV-IIITM Gwalior",
+            "bio": "",
+            "image": "/speakers/shashikala.jpeg",
+            "social": {},
+            "title": "",
+            "featured": false
+        },
+        {
+            "id": "19",
+            "name": "Dr. Kamalakanta Sethi",
+            "role": "Assistant Professor",
+            "company": "IIIT Sri City, Andhra Pradesh",
+            "bio": "",
+            "image": "/speakers/kamalakanta.jpg",
+            "social": {},
+            "title": "",
+            "featured": false
+        }
+    ]
+}

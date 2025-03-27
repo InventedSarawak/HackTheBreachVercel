@@ -1,0 +1,36 @@
+{
+    "pageTitle": "Our Sponsors",
+    "pageDescription": "Thank you to our sponsors for supporting Hack The Breach.",
+    "contactText": "Interested in sponsoring? Contact us at",
+    "contactEmail": "sponsors@hackthebreach.com",
+
+    "sponsors": [
+        {
+            "id": "sp1",
+            "name": "MeitY",
+            "logo": "/sponsors/meity.svg",
+            "website": "https://www.meity.gov.in/",
+            "invertColors": true
+        },
+        {
+            "id": "sp2",
+            "name": "ISEA",
+            "logo": "/sponsors/isea.png",
+            "website": "https://isea.gov.in/"
+        },
+        {
+            "id": "sp3",
+            "name": "CyStar IITM",
+            "logo": "/sponsors/cystar.svg",
+            "website": "https://cystar.iitm.ac.in/",
+            "invertColors": true,
+            "css": "-mt-5"
+        },
+        {
+            "id": "sp4",
+            "name": "IIT Madras",
+            "logo": "/sponsors/iitm.png",
+            "website": "https://www.iitm.ac.in/"
+        }
+    ]
+}

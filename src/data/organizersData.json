@@ -1,0 +1,105 @@
+{
+    "pageTitle": "Meet The Organizers",
+    "pageDescription": "The backbone of the event, the organizers that made this event possible.",
+    "viewAllButtonText": "View All Organizers",
+    "hideAllButtonText": "Hide Full Lineup",
+
+    "organizers": [
+        {
+            "id": "1",
+            "name": "Arka Mondal",
+            "role": "Lead Organizer",
+            "organization": "Hack The Breach",
+            "image": "/organizers/arka.png",
+            "social": {
+                "github": "https://github.com/arixsnow",
+                "linkedin": "https://www.linkedin.com/in/arka-mondal/"
+            }
+        },
+        {
+            "id": "2",
+            "name": "Vedant Kesarwani",
+            "role": "Website & Design Lead",
+            "organization": "Hack The Breach",
+            "image": "/organizers/vedant.jpg",
+            "social": {
+                "linkedin": "https://linkedin.com/in/vedant-kesarwani",
+                "github": "https://github.com/inventedsarawak"
+            }
+        },
+        {
+            "id": "3",
+            "name": "Rakshita Badugu",
+            "role": "Design Team",
+            "organization": "Hack The Breach",
+            "image": "/organizers/rakshita.jpg",
+            "social": {
+                "linkedin":"https://www.linkedin.com/in/rakshitha-badugu-934b9a32a/"
+            }
+        },
+        {
+            "id": "4",
+            "name": "Akshat Mathur",
+            "role": "CTF Challenge Team",
+            "organization": "Hack The Breach",
+            "image": "/organizers/akshat.jpg",
+            "social": {
+                "github": "https://github.com/AkshatM1707",
+                "linkedin": "https://www.linkedin.com/in/akshatm17"
+            }
+        },
+        {
+            "id": "5",
+            "name": "Piyush Singh",
+            "role": "CTF Challenge Team",
+            "organization": "Hack The Breach",
+            "image": "/organizers/piyush.jpg",
+            "social": {
+                "linkedin": "https://www.linkedin.com/in/piyush-bug"
+            }
+        },
+        {
+            "id": "6",
+            "name": "Suvan Sarkar",
+            "role": "CTF Challenge & Technical Lead",
+            "organization": "Hack The Breach",
+            "image": "/organizers/suvan.jpg",
+            "social": {
+                "github": "https://github.com/Suvansarkar",
+                "linkedin": "https://www.linkedin.com/in/suvan-sarkar-b1438017a"
+            }
+        },
+        {
+            "id": "7",
+            "name": "Sham Gagan Siddarth",
+            "role": "Design Team",
+            "organization": "Hack The Breach",
+            "image": "/organizers/sham.jpg",
+            "social": {
+                "linkedin": "https://www.linkedin.com/in/shamgagan/"
+            }
+        },
+        {
+            "id": "8",
+            "name": "R. R. Sai Tej",
+            "role": "Event Management Team",
+            "organization": "Hack The Breach",
+            "image": "/organizers/saitej.jpg",
+            "social": {
+                "github": "https://github.com/Saitej2456",
+                "linkedin": "https://www.linkedin.com/in/sai-tej-405a7128a/"
+            }
+        },
+        {
+            "id": "9",
+            "name": "Gaurav Gautam",
+            "role": "Technical Team",
+            "organization": "Hack The Breach",
+            "image": "/organizers/gaurav.jpg",
+            "social": {
+                "github": "https://github.com/SuperluminalKnight",
+                "linkedin": "https://www.linkedin.com/in/gaurav-gautam-81920724a/"
+            }
+        }
+    ]
+}

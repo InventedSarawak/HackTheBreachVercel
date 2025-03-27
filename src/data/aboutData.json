@@ -1,0 +1,73 @@
+{
+    "terminalLines": [
+        {
+            "type": "input",
+            "content": "./info.sh --about \"Hack The Breach\"",
+            "delay": 500
+        },
+        {
+            "type": "output",
+            "contentType": "about",
+            "delay": 1000,
+            "data": {
+                "title": "// ABOUT HACK THE BREACH",
+                "paragraphs": [
+                    "Hack The Breach is the premier cybersecurity workshop and hackathon for security professionals, ethical hackers, and technology enthusiasts. Join us for fifteen intensive days of hands-on workshops, expert talks, and capture-the-flag challenges.",
+                    "Our mission: to foster innovation in cybersecurity, build community among security professionals, and develop the next generation of ethical hackers."
+                ]
+            }
+        },
+        {
+            "type": "input",
+            "content": "cat event_features.txt",
+            "delay": 300
+        },
+        {
+            "type": "output",
+            "contentType": "features",
+            "delay": 1500,
+            "data": {
+                "features": [
+                    {
+                        "title": "Workshops",
+                        "description": "Hands-on technical training on exploitation techniques, defense strategies, and emerging threats"
+                    },
+                    {
+                        "title": "Expert Talks",
+                        "description": "Security thought leaders sharing insights on the latest attack vectors and protection methodologies"
+                    },
+                    {
+                        "title": "CTF Competition",
+                        "description": "24-hour hackathon with goodies and prizes for teams that demonstrate exceptional exploitation skills"
+                    },
+                    {
+                        "title": "Networking",
+                        "description": "Connect with industry professionals, researchers, and fellow security enthusiasts"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "input",
+            "content": "grep -r \"who-should-attend\" ./event_info/",
+            "delay": 300
+        },
+        {
+            "type": "output",
+            "contentType": "audience",
+            "delay": 1200,
+            "data": {
+                "title": "# Perfect for:",
+                "attendees": [
+                    "Computer science students with security interests",
+                    "UG, PG and PhD Students looking to learn about cybersecurity",
+                    "Industry professionals in the field of cybersecurity",
+                    "Faculties in the field of cybersecurity",
+                    "Researchers in the field of cybersecurity",
+                    "CTF enthusiasts and competitive hackers",
+                    "Beginners who want to learn about cybersecurity"
+                ]
+            }
+        }
+    ]
+}
