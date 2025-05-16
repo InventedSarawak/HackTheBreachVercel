@@ -1,0 +1,36 @@
+{
+    "pageTitle": "Frequently Asked Questions",
+    "pageDescription": "Everything you need to know about the event.",
+
+    "items": [
+        {
+            "question": "What is Hack The Breach?",
+            "answer": "Hack The Breach is a premier cybersecurity workshop and capture-the-flag (CTF) hackathon that brings together security professionals, researchers, students, and enthusiasts. It features expert-led workshops, insightful talks, and hands-on challenges focused on the latest trends and techniques in cybersecurity."
+        },
+        {
+            "question": "When and where will the event take place?",
+            "answer": "The event will be held online from March 29th to April 12th, 2025, via Google Meet."
+        },
+        {
+            "question": "Who can participate?",
+            "answer": "Hack The Breach is open to participants of all skill levels—from beginners to experienced security professionals. Whether you're a student, researcher, industry expert, or just passionate about cybersecurity, there’s something for everyone."
+        },
+        {
+            "question": "Are there any prerequisites to participate?",
+            "answer": "No prior experience is required! While a basic understanding of computer systems and networks can be helpful, our workshops and challenges cater to all skill levels, including beginner-friendly sessions."
+        },
+        {
+            "question": "Is there a registration fee?",
+            "answer": "No, participation is completely free! You can join our workshops, talks, and challenges at no cost."
+        },
+        {
+            "question": "Will there be prizes for the competition?",
+            "answer": "Absolutely! Our competition features an exciting prize pool, including exclusive goodies and kits for top performers."
+        }
+    ],
+
+    "contactInfo": {
+        "text": "Still have questions? Contact us at",
+        "email": "hackthebreach@iiits.in"
+    }
+}

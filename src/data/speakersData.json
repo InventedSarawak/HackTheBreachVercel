@@ -1,0 +1,265 @@
+{
+    "pageTitle": "Meet The Speakers",
+    "pageDescription": "Learn from industry experts at the forefront of cybersecurity innovation and defense",
+    "viewAllButtonText": "View All Speakers",
+    "hideAllButtonText": "Hide Full Lineup",
+
+    "speakers": [
+        {
+            "id": "1",
+            "name": "Dr. Saumya Bhadauria",
+            "role": "Assistant Professor",
+            "company": "ABV-IIIT Gwalior, Madhya Pradesh",
+            "bio": "Assistant Professor at ABV-IIITM Gwalior. Pioneers high-level synthesis and hardware security for integrated circuits. Has over 418 citations on Google Scholar for her reliable design techniques.",
+            "image": "/speakers/saumya.jpeg",
+            "social": {
+                "linkedin": "https://www.linkedin.com/in/saumya-bhadauria-4a44843b"
+            },
+            "talkTitle": " IoT and Industrial Cyber Physical System (CPS) Security",
+            "featured": false
+        },
+        {
+            "id": "2",
+            "name": "P. Santhi Thilagam",
+            "role": "Professor",
+            "company": "NIT Surathkal, Karnataka",
+            "bio": "Professor and former HOD of CSE department at NIT Surathkal. Known for research in data mining, database security, and distributed systems. Contributes extensively to academic leadership and scholarship.",
+            "image": "/speakers/santhi.jpeg",
+            "social": {
+                "mail": "mailto:santhi@nitk.edu.in",
+                "linkedin": "https://www.linkedin.com/in/santhi-thilagam-38b54ba/",
+                "website": "https://cse.nitk.ac.in/faculty/p-santhi-thilagam"
+            },
+            "talkTitle": "Web Services Security",
+            "featured": false
+        },
+        {
+            "id": "3",
+            "name": "Dr. Aditya japa",
+            "role": "Assistant Professor",
+            "company": "Ulster University, UK",
+            "bio": "Lecturer in Computer Science at Ulster University, UK. Researches machine learning, data analytics, and IoT applications. Contributes to smart systems through interdisciplinary innovations.",
+            "image": "/speakers/adityajapa.jpeg",
+            "social": {
+                "website": "https://pure.ulster.ac.uk/en/persons/aditya-japa"
+            },
+            "talkTitle": "Hardware Security Attacks on Edge Devices and Defence Techniques",
+            "featured": false
+        },
+        {
+            "id": "4",
+            "name": "Dr. Imran Malik",
+            "role": "Assistant Professor",
+            "company": "Queen's University, UK",
+            "bio": "Lecturer in Electronic Engineering at Queen's University Belfast. Expert in RF/microwave/mmWave circuits and antenna design. Advances wireless communication technologies through his research.",
+            "image": "/speakers/malikimran.jpeg",
+            "social": {
+                "mail": "mailto:m.imran@qub.ac.uk",
+                "website": "https://pure.qub.ac.uk/en/persons/malik-imran"
+            },
+            "talkTitle": "Hardware-Based Post-Quantum Cryptography Accelerators: SABER",
+            "featured": false
+        },
+        {
+            "id": "5",
+            "name": "Dr Padmavathi U.",
+            "role": "Assistant Professor",
+            "company": "Shiv Nadar University, Tamil Nadu",
+            "bio": "Assistant Professor at Shiv Nadar University Chennai. Researches deep learning and computer vision. Won Best Paper Award at IEEE ANTS-2021 for her contributions.",
+            "image": "/speakers/padmavathi.jpeg",
+            "social": {
+                "linkedin": "https://www.linkedin.com/in/dr-padmavathi-u-292156238/"
+            },
+            "talkTitle": "",
+            "featured": false
+        },
+        {
+            "id": "6",
+            "name": "Dr Pradeep Kumar Bhale",
+            "role": "Assistant Professor",
+            "company": "IIITDM Kancheepuram, Tamil Nadu",
+            "bio": "Assistant Professor at IIITDM Kancheepuram. Researches RF/microwave engineering and antenna design. Enhances wireless communication with work on millimeter-wave systems and terahertz systems.",
+            "image": "/speakers/pradeep.jpeg",
+            "social": {
+                "linkedin":"https://www.linkedin.com/in/pradeepkumar-bhale-ph-d-b82970171/"
+            },
+            "talkTitle": "Attack Detection and Mitigation for IoT Ecosystems: Adaptive, Scalable, and Lightweight Approaches",
+            "featured": false
+        },
+        {
+            "id": "7",
+            "name": "Dr. Nikhil Tripathi",
+            "role": "Assistant Professor",
+            "company": "IIT (ISM) Dhanbad, Jharkhand",
+            "bio": "Assistant Professor at IIT (ISM) Dhanbad. Researches network security, focusing on vulnerability assessment and DoS/DDoS defenses. Has over 590 citations on Google Scholar for his impactful work.",
+            "image": "/speakers/nikhiltripathi.jpeg",
+            "social": {
+                "linkedin":"https://www.linkedin.com/in/nikhil-tripathi/"
+            },
+            "talkTitle": "Application-Layer Security",
+            "featured": true
+        },
+        {
+            "id": "8",
+            "name": "Mr. Prajjwal Govil",
+            "role": "Cybersecurity Analyst",
+            "company": "TCS",
+            "bio": "IT Analyst at Tata Consultancy Services, Bangalore. Brings 8+ years of experience in full-stack development and enterprise solutions. Skilled in Java, Spring Boot, and cloud technologies for scalable IT systems.",
+            "image": "/speakers/prajjwal.jpeg",
+            "social": {
+                "linkedin":"https://www.linkedin.com/in/prajjwal-govil-ag/"
+            },
+            "talkTitle": "Phishing analysis",
+            "featured": false
+        },
+        {
+            "id": "9",
+            "name": "Prof. John Augustine",
+            "role": "Professor",
+            "company": "IIT Madras, Tamil Nadu",
+            "bio": "",
+            "image": "/speakers/augustine.jpeg",
+            "social": {
+                "linkedin": "https://www.linkedin.com/in/johnaugustine/",
+                "website": "https://www.cse.iitm.ac.in/~augustine/"
+            },
+            "talkTitle": "",
+            "featured": false
+        },
+        {
+            "id": "10",
+            "name": "Prof. Durga Toshniwal",
+            "role": "Professor",
+            "company": "IIT Roorkee, Uttarakhand",
+            "bio": "Professor at IIT Roorkee in Computer Science. Renowned for work in AI, data mining, and intelligent transportation systems. Boasts over 6,300 citations on Google Scholar for her research.",
+            "image": "/speakers/durgatoshniwal.jpg",
+            "social": {
+                "mail": "mailto:mailto:durga.toshniwal@cs.iitr.ac.in",
+                "website": "http://www.durgatoshniwal.in/"
+            },
+            "talkTitle": "",
+            "featured": false
+        },
+        {
+            "id": "11",
+            "name": "Prof. Rajat Subhra Chakraborty",
+            "role": "Professor",
+            "company": "IIT Kharagpur, West Bengal",
+            "bio": "Professor and Associate Dean at IIT Kharagpur. Renowned for pioneering research in hardware security and VLSI design. Ranked among the top 2% of global Computer Science researchers in 2022.",
+            "image": "/speakers/rajatsubhra.jpeg",
+            "social": {
+                "mail": "mailto:rschakraborty@cse.iitkgp.ac.in",
+                "linkedin":"https://www.linkedin.com/in/rajat-subhra-chakraborty-9249709/"
+            },
+            "talkTitle": "Hardware Security",
+            "featured": false
+        },
+        {
+            "id": "12",
+            "name": "Dr. Monosij Maitra",
+            "role": "Assistant Professor",
+            "company": "IIT Kharagpur, West Bengal",
+            "bio": "Assistant Professor at IIT Kharagpur, specializing in cryptography. Known for advanced encryption systems for secure data computation. Won IBM Best PhD Thesis award for his doctoral work at IIT Madras.",
+            "image": "/speakers/monosij.jpeg",
+            "social": {
+                "mail": "mailto:monosij@cse.iitkgp.ac.in",
+                "linkedin": "https://www.linkedin.com/in/monosij-maitra-52b68425/"
+            },
+            "talkTitle": "Cryptography",
+            "featured": true
+        },
+        {
+            "id": "13",
+            "name": "Dr. Bodhisatwa Mazumdar",
+            "role": "Professor",
+            "company": "IIT Indore, Madhya Pradesh",
+            "bio": "Associate Professor at IIT Indore. Known for extensive research in hardware security and side-channel attacks. Accumulated over 1,800 citations on Google Scholar for his contributions.",
+            "image": "/speakers/bodhisatwa.jpg",
+            "social": {
+                "mail": "mailto:bodhisatwa@iiti.ac.in",
+                "linkedin":"https://www.linkedin.com/in/bodhisatwa-mazumdar-4951a2121/"
+            },
+            "talkTitle": "Side-channel Attacks",
+            "featured": true
+        },
+        {
+            "id": "14",
+            "name": "Dr.Sharad Sinha",
+            "role": "Associate Professor",
+            "company": "IIT Goa, Goa",
+            "bio": "Associate Professor and Dean of Faculty Affairs at IIT Goa. Focuses on reconfigurable computing, computer architecture, and embedded systems. Contributes significantly to both research and academic leadership.",
+            "image": "/speakers/sharad.jpeg",
+            "social": {
+                "mail": "mailto:mailto:sharad@iitgoa.ac.in",
+                "linkedin":"https://www.linkedin.com/in/sharad-sinha-iitgoa/"
+            },
+            "talkTitle": "Architecture and Methods for Fine Grained Detection and Mitigation of Cache Side Channel Attacks",
+            "featured": true
+        },
+        {
+            "id": "15",
+            "name": "Dr. Rajesh Gupta",
+            "role": "Assistant Professor",
+            "company": "Nirma University, Gujarat",
+            "bio": "Professor and HOD of CSE department at Nirma University. Specializes in IoT, cloud computing, and network security. Known for significant contributions to both academia and leadership.",
+            "image": "/speakers/rajesh.jpeg",
+            "social": {
+
+            },
+            "talkTitle": "",
+            "featured": false
+        },
+        {
+            "id": "16",
+            "name": "Dr. Vimal Kumar Dwivedi",
+            "role": "Assistant Professor",
+            "company": "Ulster University, UK",
+            "bio": "Lecturer in Electrical and Electronic Engineering at Ulster University, UK. Focuses on energy harvesting, wireless sensor networks, and IoT. Advances sustainable technology solutions through his work.",
+            "image": "/speakers/vimal.jpg",
+            "social": {
+                "linkedin":"https://www.linkedin.com/in/vimal-dwivedi-phd-18038b161/"
+            },
+            "talkTitle": "",
+            "featured": false
+        },
+        {
+            "id": "17",
+            "name": "Dr. Gaurav Varshney",
+            "role": "Assistant Professor",
+            "company": "IIT Roorkee, Uttarakhand",
+            "bio": "Assistant Professor at IIT Jammu. Focuses on cybersecurity, including anti-phishing and multi-factor authentication. Earned over 540 citations on Google Scholar for his research.",
+            "image": "/speakers/gauravvarshney.jpg",
+            "social": {
+                "linkedin":"https://www.linkedin.com/in/gluckbbc1/"
+            },
+            "talkTitle": "Web Application Security and Pentest",
+            "featured": false
+        },
+        {
+            "id": "18",
+            "name": "Prof. Shashikala Tapaswi",
+            "role": "Professor",
+            "company": "ABV-IIITM Gwalior",
+            "bio": "Professor at ABV-IIITM Gwalior. Specializes in image/video processing, mobile networks, and IoT security. Holds patents for indoor tracking and image dehazing devices.",
+            "image": "/speakers/shashikala.jpeg",
+            "social": {
+
+            },
+            "talkTitle": "",
+            "featured": false
+        },
+        {
+            "id": "19",
+            "name": "Dr. Kamalakanta Sethi",
+            "role": "Assistant Professor",
+            "company": "IIIT Sri City, Andhra Pradesh",
+            "bio": "",
+            "image": "/speakers/kamalakanta.jpg",
+            "social": {
+                "linkedin":"https://www.linkedin.com/in/kamalakanta-sethi-2b00b6159/"
+            },
+            "talkTitle": "",
+            "featured": false
+        }
+    ]
+}

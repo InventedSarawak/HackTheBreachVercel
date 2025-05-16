@@ -1,0 +1,80 @@
+{
+    "title": "Capture The Flag",
+    "description": "Test your skills in our 48-hour cybersecurity competition with challenges across multiple security domains",
+    "registerButtonText": "CTF LIVE NOW",
+
+    "keyDetails": [
+        {
+            "icon": "Calendar",
+            "title": "Date",
+            "main": "4th and 11th April, 2025",
+            "note": "After sessions"
+        },
+        {
+            "icon": "Clock",
+            "title": "Duration",
+            "main": "60 Hours of Hacking",
+            "note": "Real-time updates"
+        },
+        {
+            "icon": "Users",
+            "title": "Team Size",
+            "main": "Solo Participation Only",
+            "note": "Only 1 member per team"
+        },
+        {
+            "icon": "Brain",
+            "title": "Skill Level",
+            "main": "Beginner to Advanced",
+            "note": "Challenges for all levels"
+        }
+    ],
+
+    "prizePool": {
+        "title": "Exciting Prizes Awaiting You!",
+        "description": "Compete for goodies and kits, including tshirts, stickers, mugs and more"
+    },
+
+    "challengeCategories": {
+        "title": "Challenge Categories",
+        "description": "Test your skills across multiple cybersecurity domains",
+        "categories": [
+            {
+                "name": "Web Exploitation",
+                "description": "Discover and exploit vulnerabilities in web applications.",
+                "icon": "Globe",
+                "difficulty": "all"
+            },
+            {
+                "name": "Cryptography",
+                "description": "Break codes, decrypt messages, and solve cipher challenges.",
+                "icon": "Lock",
+                "difficulty": "all"
+            },
+            {
+                "name": "Reverse Engineering",
+                "description": "Analyze and understand compiled programs and binaries.",
+                "icon": "FileCode",
+                "difficulty": "intermediate"
+            },
+            {
+                "name": "Binary Exploitation",
+                "description": "Identify and exploit vulnerabilities in program binaries.",
+                "icon": "Terminal",
+                "difficulty": "advanced"
+            },
+            {
+                "name": "Forensics",
+                "description": "Analyze digital evidence to solve security puzzles.",
+                "icon": "Search",
+                "difficulty": "all"
+            },
+            {
+                "name": "OSINT",
+                "description": "Use open source intelligence to solve challenges.",
+                "icon": "Laptop",
+                "difficulty": "beginner"
+            }
+        ]
+    }
+}

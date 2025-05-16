@@ -1,0 +1,28 @@
+{
+    "pageTitle": "Special Thanks",
+    "pageDescription": "Hack The Breach wouldn't be possible without their support",
+
+    "thanks": [
+        {
+            "id": "college",
+            "name": "IIIT Sri City",
+            "role": "Organized By",
+            "designation": "Chittoor",
+            "image": "/thanks/iiit.png"
+        },
+        {
+            "id": "director",
+            "name": "Prof. M. V. Kartikeyan",
+            "designation": "Director, IIIT Sri City",
+            "role": "Chief Patron",
+            "image": "/thanks/kartikeyan.png"
+        },
+        {
+            "id": "coordinator",
+            "name": "Dr. Neha Agrawal",
+            "designation": "Assistant Professor, IIIT Sri City",
+            "role": "Convener",
+            "image": "/thanks/neha_maam.jpg"
+        }
+    ]
+}

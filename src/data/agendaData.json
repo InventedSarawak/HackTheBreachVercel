@@ -1,0 +1,314 @@
+{
+    "days": [
+        {
+            "date": "March 29, 2025",
+            "dayName": "Day 1",
+            "events": [
+                {
+                    "time": "5:30 PM - 6:00 PM",
+                    "title": "Opening Ceremony",
+                    "speaker": "",
+                    "description": "A grand formal inauguration marking the start of the event, setting the stage for an exciting lineup of cybersecurity discussions and activities.",
+                    "type": "ceremony"
+                },
+                {
+                    "time": "6:00 PM - 8:00 PM",
+                    "title": "Cryptographic Encryption -- From Basic Principles to Advanced Notions",
+                    "speaker": "Dr. Monosij Maitra (IIT Kharagpur)",
+                    "description": "An engaging session exploring the fundamentals and cutting-edge advancements in cybersecurity, with a deep dive into cryptographic encryption techniques.",
+                    "type": "talk"
+                }
+            ]
+        },
+        {
+            "date": "March 30, 2025",
+            "dayName": "Day 2",
+            "events": [
+                {
+                    "time": "10:00 AM - 11:30 AM",
+                    "title": "Hardware Security",
+                    "speaker": "Prof. Rajat Subhra Chakraborty (IIT Kharagpur)",
+                    "description": "A comprehensive cybersecurity session delving into advanced threats targeting hardware and the innovative defenses designed to counter them.",
+                    "type": "talk"
+                },
+                {
+                    "time": "11:30 AM - 1:00 PM",
+                    "title": "Architecture and Methods for Fine Grained Detection and Mitigation of Cache Side Channel Attacks",
+                    "speaker": "Dr. Sharad Sinha (IIT Goa)",
+                    "description": "A technical deep-dive into system security, focusing on emerging research and methods for detecting and mitigating cache side-channel attacks with precision.",
+                    "type": "talk"
+                }
+            ]
+        },
+        {
+            "date": "March 31, 2025",
+            "dayName": "Day 3",
+            "events": [
+                {
+                    "time": "10:00 AM - 11:00 AM",
+                    "title": "DoS/DDoS Attacks: Underestimating the Availability Component of Cyber Security",
+                    "speaker": "Dr. Nikhil Tripathi (IIT(ISM) Dhanbad)",
+                    "description": "An insightful discussion on the often-overlooked availability aspect of cybersecurity, tackling the complexities of DoS and DDoS attack prevention.",
+                    "type": "talk"
+                },
+                {
+                    "time": "11:00 AM - 12:00 PM",
+                    "title": "Cyber Physical Systems Security",
+                    "speaker": "Dr. Rohit Kumar (Shiv Nadar University)",
+                    "description": "A compelling exploration of cybersecurity research, offering insights into securing cyber-physical systems alongside practical best practices.",
+                    "type": "talk"
+                },
+                {
+                    "time": "12:00 PM - 1:00 PM",
+                    "title": "Cyber Physical Systems Security",
+                    "speaker": "Prof. Shashikala Tapaswi (ABV-IIITM Gwalior)",
+                    "description": "An in-depth discussion on threat intelligence, featuring advanced security analysis techniques and strategies to stay ahead of cyber risks.",
+                    "type": "talk"
+                }
+            ]
+        },
+        {
+            "date": "April 1, 2025",
+            "dayName": "Day 4",
+            "events": [
+                {
+                    "time": "6:00 PM - 8:00 PM",
+                    "title": "Side-channel Attacks",
+                    "speaker": "Dr. Bodhisatwa Mazumdar (IIT Indore)",
+                    "description": "An interactive and dynamic session unraveling the intricacies of side-channel attacks, with a focus on cryptography and network security applications.",
+                    "type": "talk"
+                }
+            ]
+        },
+        {
+            "date": "April 2, 2025",
+            "dayName": "Day 5",
+            "events": [
+                {
+                    "time": "6:00 PM - 8:00 PM",
+                    "title": "Web Application Security and Pentest",
+                    "speaker": "Dr. Gaurav Varshney (IIT Jammu)",
+                    "description": "A hands-on workshop diving into cryptographic techniques and secure communication protocols, with practical exercises in web application security and penetration testing.",
+                    "type": "talk"
+                }
+            ]
+        },
+        {
+            "date": "April 3, 2025",
+            "dayName": "Day 6",
+            "events": [
+                {
+                    "time": "6:00 PM - 8:00 PM",
+                    "title": "Hardware Security Attacks on Edge Devices and Defence Techniques",
+                    "speaker": "Dr. Aditya Japa (Ulster University, UK)",
+                    "description": "A detailed examination of security vulnerabilities in edge devices, coupled with governance strategies and robust defense techniques to safeguard them.",
+                    "type": "talk"
+                }
+            ]
+        },
+        {
+            "date": "April 4, 2025",
+            "dayName": "Day 7",
+            "events": [
+                {
+                    "time": "",
+                    "title": "CTF Level-1",
+                    "speaker": "",
+                    "description": "The thrilling first level of the Capture The Flag competition, running all day and challenging participants with real-world cybersecurity puzzles.",
+                    "type": "hackathon"
+                }
+            ]
+        },
+        {
+            "date": "April 5, 2025",
+            "dayName": "Day 8",
+            "events": [
+                {
+                    "time": "10:00 AM - 11:00 AM",
+                    "title": "IoT and Industrial Cyber Physical System (CPS) Security",
+                    "speaker": "Dr. Saumya Bhadoria (ABV-IIITM Gwalior)",
+                    "description": "An illuminating session addressing the unique cloud security challenges in IoT and industrial CPS, paired with actionable solutions.",
+                    "type": "talk"
+                },
+                {
+                    "time": "11:00 AM - 12:00 PM",
+                    "title": "Threat Intelligence",
+                    "speaker": "Ms. Harshita Tripathi (Microsoft)",
+                    "description": "",
+                    "type": "talk"
+                },
+                {
+                    "time": "12:00 PM - 1:00 PM",
+                    "title": "Attack Analysis",
+                    "speaker": "Mr. Prajjwal Govil (TCS)",
+                    "description": "A practitioner's perspective offering industry insights into real-world cybersecurity practices and effective attack analysis techniques.",
+                    "type": "talk"
+                }
+            ]
+        },
+        {
+            "date": "April 6, 2025",
+            "dayName": "Day 9",
+            "events": [
+                {
+                    "time": "10:00 AM - 11:30 AM",
+                    "title": "Session",
+                    "speaker": "Prof. Durga Toshniwal (IIT Roorkee)",
+                    "description": "A fascinating exploration of machine learning applications in cybersecurity, showcasing their potential to transform threat detection and response.",
+                    "type": "talk"
+                },
+                {
+                    "time": "11:30 AM - 1:00 PM",
+                    "title": "Session",
+                    "speaker": "Dr. Rajesh Gupta (Nirma University)",
+                    "description": "A thought-provoking discussion on the development and implementation of security policies and frameworks to bolster organizational defenses.",
+                    "type": "talk"
+                }
+            ]
+        },
+        {
+            "date": "April 7, 2025",
+            "dayName": "Day 10",
+            "events": [
+                {
+                    "time": "6:00 PM - 7:00 PM",
+                    "title": "Advesial Machine Learning",
+                    "speaker": "Dr. Chandra Shekhar (Samsung)",
+                    "description": "",
+                    "type": "talk"
+                },
+                {
+                    "time": "7:00 PM - 8:00 PM",
+                    "title": "Hardware-Based Post-Quantum Cryptography Accelerators: SABER as a case study",
+                    "speaker": "Dr. Malik Imran (Queen's University, UK)",
+                    "description": "A forward-looking session on advanced cryptographic research, spotlighting real-world implementations of post-quantum accelerators like SABER.",
+                    "type": "talk"
+                }
+            ]
+        },
+        {
+            "date": "April 8, 2025",
+            "dayName": "Day 11",
+            "events": [
+                {
+                    "time": "6:00 PM - 8:00 PM",
+                    "title": "Web Services Security",
+                    "speaker": "Prof. P. Santhi Thilagam (NIT Surathkal)",
+                    "description": "An expert-led exploration of network intrusion detection and mitigation techniques tailored to securing modern web services.",
+                    "type": "talk"
+                }
+            ]
+        },
+        {
+            "date": "April 9, 2025",
+            "dayName": "Day 12",
+            "events": [
+                {
+                    "time": "6:00 PM - 7:00 PM",
+                    "title": "Harvest now! Decrypt Later! Secure your data against Y2Q threat",
+                    "speaker": "Mr. Kartikeyan (TCS)",
+                    "description": "A cutting-edge session delving into cyber forensics and data protection, highlighting the latest research and practical applications.",
+                    "type": "talk"
+                },
+                {
+                    "time": "7:00 PM - 8:00 PM",
+                    "title": "Session",
+                    "speaker": "Dr. Vimal Dwivedi (Ulster University, UK)",
+                    "description": "A cutting-edge session delving into cyber forensics and data protection, highlighting the latest research and practical applications.",
+                    "type": "talk"
+                }
+            ]
+        },
+        {
+            "date": "April 10, 2025",
+            "dayName": "Day 13",
+            "events": [
+                {
+                    "time": "10:00 AM - 11:00 AM",
+                    "title": "Blockchain and Federated learning for IOT security",
+                    "speaker": "Dr. Padmavathu U. (Shiv Nadar University)",
+                    "description": "A detailed overview of penetration testing methodologies and best practices, enhanced by blockchain and federated learning for IoT security.",
+                    "type": "talk"
+                },
+                {
+                    "time": "11:00 AM - 12:00 PM",
+                    "title": "Session",
+                    "speaker": "Mr. Aditya Bhatia (DCSI)",
+                    "description": "",
+                    "type": "talk"
+                },
+                {
+                    "time": "12:00 PM - 1:00 PM",
+                    "title": "Attack Detection and Mitigation for IoT Ecosystems: Adaptive, Scalable, and Lightweight Approaches",
+                    "speaker": "Dr. Bhale Pradeepkumar (IIITDM Kancheepuram)",
+                    "description": "A focused session on IoT security challenges, presenting adaptive, scalable, and lightweight frameworks for attack detection and mitigation.",
+                    "type": "talk"
+                },
+                {
+                    "time": "2:00 PM - 3:00 PM",
+                    "title": "Session",
+                    "speaker": "Dr. Nitesh Bharadwaj (NIT Raipur)",
+                    "description": "A strategic discussion on threat intelligence and incident response, equipping attendees with proactive cybersecurity strategies.",
+                    "type": "talk"
+                },
+                {
+                    "time": "3:00 PM - 4:00 PM",
+                    "title": "Darkweb and Tor - Monitoring using OSINT tools",
+                    "speaker": "Prof. Emmanuel Pilli (MNIT Jaipur, India)",
+                    "description": "",
+                    "type": "talk"
+                },
+                {
+                    "time": "4:00 PM - 5:00 PM",
+                    "title": "Session",
+                    "speaker": "Dr. Yasir Ali Shah (Ulster University, UK)",
+                    "description": "An advanced session on malware analysis, covering detection and prevention techniques to combat evolving cyber threats.",
+                    "type": "talk"
+                }
+            ]
+        },
+        {
+            "date": "April 11, 2025",
+            "dayName": "Day 14",
+            "events": [
+                {
+                    "time": "6:00 PM - 8:00 PM",
+                    "title": "Session",
+                    "speaker": "Dr. Kamalakanta Sethi (IIIT Sri City)",
+                    "description": "",
+                    "type": "talk"
+                },
+                {
+                    "time": "",
+                    "title": "CTF Level-2",
+                    "speaker": "",
+                    "description": "The advanced round of the Capture The Flag competition, pushing participant's cybersecurity skills to the limit with complex challenges.",
+                    "type": "hackathon"
+                }
+            ]
+        },
+        {
+            "date": "April 12, 2025",
+            "dayName": "Day 15",
+            "events": [
+                {
+                    "time": "10:00 AM - 11:00 PM",
+                    "title": "Session",
+                    "speaker": "Prof. John Augustine  (IIT Madras)",
+                    "description": "",
+                    "type": "talk"
+                },
+                {
+                    "time": "",
+                    "title": "CTF Winners Announcement & Closing Ceremony",
+                    "speaker": "",
+                    "description": "A celebratory finale featuring the announcement of Capture The Flag winners and the official closing of this impactful cybersecurity event.",
+                    "type": "ceremony"
+                }
+            ]
+        }
+    ],
+    "settings": {
+        "note": "The schedule may be subject to minor changes. Attendees will receive real-time updates via email."
+    }
+}
