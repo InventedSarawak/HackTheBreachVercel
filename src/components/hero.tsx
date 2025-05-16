@@ -153,13 +153,15 @@ export default function Hero() {
                                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                             </Button>
                         </Link>
-                        <Button
-                            size="lg"
-                            variant="outline"
-                            className="cursor-pointer"
-                        >
-                            View Schedule
-                        </Button>
+                        <a href="/schedule_HTB.pdf" download={true}>
+                            <Button
+                                size="lg"
+                                variant="outline"
+                                className="cursor-pointer"
+                            >
+                                View Schedule
+                            </Button>
+                        </a>
                     </motion.div>
 
                     {/* Event stats - Now using the data from JSON */}

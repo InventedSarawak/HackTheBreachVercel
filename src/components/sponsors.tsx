@@ -29,7 +29,7 @@ const SponsorItem = ({ sponsor }: { sponsor: Sponsor }) => {
             className="group mx-4 flex items-center"
         >
             {/* Logo only - white color, no background, fixed height */}
-            <div className="flex h-16 items-center justify-center transition-transform hover:scale-105 md:h-20">
+            <div className="flex h-16 items-center justify-center md:h-20">
                 <Image
                     src={sponsor.logo}
                     alt={`${sponsor.name} logo`}
@@ -68,7 +68,7 @@ export default function Sponsors() {
     const sponsorEntries = React.useMemo(() => [...SPONSORS], [])
 
     return (
-        <section id="sponsors" className="w-full py-16 md:py-24">
+        <section id="sponsors" className="w-full py-16">
             <div className="mb-12 flex flex-col items-center justify-center gap-2 text-center">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}

@@ -4,7 +4,7 @@ import React from 'react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { IconCloud } from '@/components/magicui/icon-cloud'
-import { FaDiscord, FaLinkedin, FaGithub } from 'react-icons/fa'
+import { FaDiscord, FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa'
 
 // Import your logo - adjust path as needed
 import { Logo } from '@/components/logo'
@@ -83,10 +83,10 @@ export default function Footer() {
         <footer className="-mt-10 border-t border-zinc-800 bg-black py-10">
             <div className="container mx-auto px-4">
                 {/* Main footer content with improved alignment */}
-                <div className="mb-8 flex flex-col items-center justify-between gap-8 md:flex-row md:items-center">
+                <div className="-mt-4 mb-8 flex flex-col items-center justify-between gap-8 md:flex-row md:items-center">
                     {/* Left side with logo, text, and CTA - with added padding */}
                     <div className="flex max-w-md flex-col justify-between pl-4 md:ml-8 md:pl-8">
-                        <div className="mb-6">
+                        <div className="mb-4">
                             {/* Further increased logo size */}
                             <Logo
                                 alt="Hack The Breach Logo"
@@ -135,38 +135,38 @@ export default function Footer() {
 
                     {/* Social links in middle - truly centered */}
                     <div className="flex justify-center gap-6">
-                        <Link
+                        <a
                             href="https://github.com/orgs/Hack-The-Breach"
                             className="transition-colors hover:text-zinc-300"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <FaGithub className="h-5 w-5" />
-                        </Link>
-                        <Link
+                        </a>
+                        <a
                             href="https://www.linkedin.com/company/hackthebreach"
                             className="transition-colors hover:text-zinc-300"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <FaLinkedin className="h-5 w-5" />
-                        </Link>
-                        <Link
-                            href="#"
-                            className="transition-colors hover:text-zinc-300"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <FaDiscord className="h-5 w-5" />
-                        </Link>
-                        {/* <Link
+                        </a>
+                        <a
                             href="https://discord.gg/puPJWDkh6j"
                             className="transition-colors hover:text-zinc-300"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <FaDiscord className="h-5 w-5" />
-                        </Link> */}
+                        </a>
+                        <a
+                            href="https://www.instagram.com/hackthebreach/"
+                            className="transition-colors hover:text-zinc-300"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FaInstagram className="h-5 w-5" />
+                        </a>
                     </div>
 
                     {/* Code of conduct on right */}

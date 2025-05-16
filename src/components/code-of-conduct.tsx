@@ -51,7 +51,7 @@ const conductData = codeOfConductData as unknown as CodeOfConductData
 
 export default function CodeOfConduct() {
     return (
-        <section id="code-of-conduct" className="w-full py-16 md:py-24">
+        <section id="code-of-conduct" className="w-full py-16">
             <div className="container mx-auto px-4">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}

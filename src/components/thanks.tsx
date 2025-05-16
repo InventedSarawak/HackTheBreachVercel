@@ -42,7 +42,7 @@ const ThankYouCard = ({
             className="flex flex-col items-center text-center"
         >
             {/* Name and Role */}
-            <h3 className="mt-24 mb-2 font-mono text-2xl font-bold text-white">
+            <h3 className="mt-12 mb-2 font-mono text-2xl font-bold text-white">
                 {person.role}
             </h3>
             <span className="text-lg text-zinc-300">{person.name}</span>
@@ -86,7 +86,7 @@ export default function SpecialThanks() {
                     </p>
                 </motion.div>
 
-                <div className="-mt-24 -mb-16 flex flex-col items-center">
+                <div className="-mt-16 -mb-16 flex flex-col items-center">
                     {thanksData.thanks.map((person, index) => (
                         <ThankYouCard
                             key={person.id}
