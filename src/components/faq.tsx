@@ -70,7 +70,7 @@ const parseAnswer = (answer: string): React.ReactNode => {
 
 export default function FAQ() {
     return (
-        <section id="faq" className="py-16 md:py-24">
+        <section id="faq" className="py-16">
             <div className="container mx-auto px-4">
                 {/* Section Header */}
                 <div className="mb-12 flex flex-col items-center justify-center gap-2 text-center">
@@ -122,7 +122,7 @@ export default function FAQ() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: 0.4 }}
-                    className="mt-12 text-center"
+                    className="mt-12 text-center mb-8"
                 >
                     <p className="text-zinc-400">
                         {faqData.contactInfo.text}{' '}

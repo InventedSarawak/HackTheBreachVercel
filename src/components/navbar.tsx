@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState, useRef, useEffect } from 'react'
-import { LogoWithoutGradient } from '@/components/logo'
+import { Logo } from '@/components/logo'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { HyperText } from '@/components/magicui/hyper-text'
@@ -177,7 +177,7 @@ const NavBar = () => {
                 } bg-background/80 mx-2 flex flex-row items-center justify-between rounded-xl border border-zinc-800 px-8 py-2 backdrop-blur-md`}
             >
                 <Link href={'/'}>
-                    <LogoWithoutGradient alt="Hack The Breach Logo" />
+                    <Logo alt="Hack The Breach Logo" />
                 </Link>
 
                 {/* Desktop Navigation - Changed from md to lg breakpoint */}
@@ -216,10 +216,10 @@ const NavBar = () => {
                     </Link>
                     <Link
                         className="hover:text-primary text-base transition-colors"
-                        href="/#hackathon"
+                        href="https://ctf.hackthebreach.xyz"
                     >
                         <HyperText characterSet={characterSet} delay={850}>
-                            /hackathon
+                            /ctf
                         </HyperText>
                     </Link>
                     <Link

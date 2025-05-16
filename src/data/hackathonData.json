@@ -1,7 +1,7 @@
 {
     "title": "Capture The Flag",
     "description": "Test your skills in our 48-hour cybersecurity competition with challenges across multiple security domains",
-    "registerButtonText": "Register Now",
+    "registerButtonText": "CTF LIVE NOW",
 
     "keyDetails": [
         {
@@ -13,7 +13,7 @@
         {
             "icon": "Clock",
             "title": "Duration",
-            "main": "48 Hours of Hacking",
+            "main": "60 Hours of Hacking",
             "note": "Real-time updates"
         },
         {

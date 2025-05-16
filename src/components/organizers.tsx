@@ -155,7 +155,7 @@ export default function Organizers() {
     }, [api, showAllOrganizers])
 
     return (
-        <section id="organizers" className="cursor-default py-16 md:py-24">
+        <section id="organizers" className="cursor-default py-16">
             <div className="container mx-auto px-4">
                 <div className="mb-12 flex flex-col items-center justify-center gap-2 text-center">
                     <motion.div
@@ -188,7 +188,7 @@ export default function Organizers() {
                         >
                             <Carousel
                                 opts={{
-                                    align: 'center',
+                                    align: 'start',
                                     loop: true,
                                     dragFree: false,
                                     containScroll: 'trimSnaps',

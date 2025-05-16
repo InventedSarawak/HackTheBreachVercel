@@ -106,7 +106,7 @@ const SpeakerCard = ({ speaker }: { speaker: Speaker }) => {
                         : 'translate-y-20 opacity-0'
                 )}
             >
-                <p className="line-clamp-3 text-xs leading-tight text-zinc-300">
+                <p className=" text-xs leading-tight text-zinc-300">
                     {speaker.bio}
                 </p>
 
@@ -131,6 +131,7 @@ const SpeakerCard = ({ speaker }: { speaker: Speaker }) => {
                         <a
                             href={speaker.social.linkedin}
                             className="rounded-full bg-zinc-800 p-1.5 transition-colors hover:bg-zinc-700"
+                            target="_blank"
                         >
                             <Linkedin className="h-4 w-4 text-zinc-400" />
                         </a>
@@ -139,6 +140,7 @@ const SpeakerCard = ({ speaker }: { speaker: Speaker }) => {
                         <a
                             href={speaker.social.website}
                             className="rounded-full bg-zinc-800 p-1.5 transition-colors hover:bg-zinc-700"
+                            target="_blank"
                         >
                             <Globe className="h-4 w-4 text-zinc-400" />
                         </a>
@@ -147,6 +149,7 @@ const SpeakerCard = ({ speaker }: { speaker: Speaker }) => {
                         <a
                             href={speaker.social.github}
                             className="rounded-full bg-zinc-800 p-1.5 transition-colors hover:bg-zinc-700"
+                            target="_blank"
                         >
                             <Github className="h-4 w-4 text-zinc-400" />
                         </a>
@@ -160,7 +163,7 @@ const SpeakerCard = ({ speaker }: { speaker: Speaker }) => {
 // Main Speakers component with continuous auto-rotation
 export default function Speakers() {
     const [showAllSpeakers, setShowAllSpeakers] = useState(false)
-    const [api, setApi] = useState<(CarouselApi | null)>(null)
+    const [api, setApi] = useState<CarouselApi | null>(null)
     const autoplayRef = useRef<NodeJS.Timeout | null>(null)
 
     // Setup continuous auto-rotation without pausing
@@ -197,7 +200,7 @@ export default function Speakers() {
     return (
         <section id="speakers" className="cursor-default py-16 md:py-24">
             <div className="container mx-auto px-4">
-                <div className="mb-12 flex flex-col items-center justify-center gap-2 text-center">
+                <div className="mb-8 md:mb-12 flex flex-col items-center justify-center gap-2 text-center">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -221,11 +224,11 @@ export default function Speakers() {
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
                             transition={{ duration: 0.5 }}
-                            className="relative overflow-visible px-6 md:px-8"
+                            className="relative overflow-visible px-6 py-6 md:px-8 md:py-8"
                         >
                             <Carousel
                                 opts={{
-                                    align: 'center',
+                                    align: 'start',
                                     loop: true,
                                     dragFree: false,
                                     containScroll: 'trimSnaps',
@@ -269,7 +272,7 @@ export default function Speakers() {
                     )}
                 </AnimatePresence>
 
-                <div className="mt-12 text-center">
+                <div className="mt-8 md:mt-12 text-center">
                     <Button
                         variant={showAllSpeakers ? 'secondary' : 'outline'}
                         className="group"

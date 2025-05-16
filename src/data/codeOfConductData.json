@@ -84,16 +84,9 @@
             },
             {
                 "name": "Email",
-                "details": "conduct@hackthebreach.com",
+                "details": "hackthebreach@iiits.in",
                 "isLink": true,
-                "url": "mailto:conduct@hackthebreach.com"
-            },
-            {
-                "name": "Reporting Form",
-                "details": "Submit through our anonymous reporting form",
-                "isLink": true,
-                "linkText": "anonymous reporting form",
-                "url": "#"
+                "url": "mailto:hackthebreach@iiits.in"
             }
         ],
         "note": "All reports will be handled with discretion and confidentiality. We are committed to responding promptly to any concerns and taking appropriate action."

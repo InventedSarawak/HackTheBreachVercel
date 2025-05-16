@@ -124,14 +124,21 @@
             "dayName": "Day 8",
             "events": [
                 {
-                    "time": "10:00 AM - 11:30 AM",
+                    "time": "10:00 AM - 11:00 AM",
                     "title": "IoT and Industrial Cyber Physical System (CPS) Security",
                     "speaker": "Dr. Saumya Bhadoria (ABV-IIITM Gwalior)",
                     "description": "An illuminating session addressing the unique cloud security challenges in IoT and industrial CPS, paired with actionable solutions.",
                     "type": "talk"
                 },
                 {
-                    "time": "11:30 AM - 1:00 PM",
+                    "time": "11:00 AM - 12:00 PM",
+                    "title": "Threat Intelligence",
+                    "speaker": "Ms. Harshita Tripathi (Microsoft)",
+                    "description": "",
+                    "type": "talk"
+                },
+                {
+                    "time": "12:00 PM - 1:00 PM",
                     "title": "Attack Analysis",
                     "speaker": "Mr. Prajjwal Govil (TCS)",
                     "description": "A practitioner's perspective offering industry insights into real-world cybersecurity practices and effective attack analysis techniques.",
@@ -164,7 +171,14 @@
             "dayName": "Day 10",
             "events": [
                 {
-                    "time": "6:00 PM - 8:00 PM",
+                    "time": "6:00 PM - 7:00 PM",
+                    "title": "Advesial Machine Learning",
+                    "speaker": "Dr. Chandra Shekhar (Samsung)",
+                    "description": "",
+                    "type": "talk"
+                },
+                {
+                    "time": "7:00 PM - 8:00 PM",
                     "title": "Hardware-Based Post-Quantum Cryptography Accelerators: SABER as a case study",
                     "speaker": "Dr. Malik Imran (Queen's University, UK)",
                     "description": "A forward-looking session on advanced cryptographic research, spotlighting real-world implementations of post-quantum accelerators like SABER.",
@@ -190,7 +204,14 @@
             "dayName": "Day 12",
             "events": [
                 {
-                    "time": "6:00 PM - 8:00 PM",
+                    "time": "6:00 PM - 7:00 PM",
+                    "title": "Harvest now! Decrypt Later! Secure your data against Y2Q threat",
+                    "speaker": "Mr. Kartikeyan (TCS)",
+                    "description": "A cutting-edge session delving into cyber forensics and data protection, highlighting the latest research and practical applications.",
+                    "type": "talk"
+                },
+                {
+                    "time": "7:00 PM - 8:00 PM",
                     "title": "Session",
                     "speaker": "Dr. Vimal Dwivedi (Ulster University, UK)",
                     "description": "A cutting-edge session delving into cyber forensics and data protection, highlighting the latest research and practical applications.",
@@ -203,14 +224,21 @@
             "dayName": "Day 13",
             "events": [
                 {
-                    "time": "10:00 AM - 11:30 AM",
+                    "time": "10:00 AM - 11:00 AM",
                     "title": "Blockchain and Federated learning for IOT security",
                     "speaker": "Dr. Padmavathu U. (Shiv Nadar University)",
                     "description": "A detailed overview of penetration testing methodologies and best practices, enhanced by blockchain and federated learning for IoT security.",
                     "type": "talk"
                 },
                 {
-                    "time": "11:30 AM - 1:00 PM",
+                    "time": "11:00 AM - 12:00 PM",
+                    "title": "Session",
+                    "speaker": "Mr. Aditya Bhatia (DCSI)",
+                    "description": "",
+                    "type": "talk"
+                },
+                {
+                    "time": "12:00 PM - 1:00 PM",
                     "title": "Attack Detection and Mitigation for IoT Ecosystems: Adaptive, Scalable, and Lightweight Approaches",
                     "speaker": "Dr. Bhale Pradeepkumar (IIITDM Kancheepuram)",
                     "description": "A focused session on IoT security challenges, presenting adaptive, scalable, and lightweight frameworks for attack detection and mitigation.",
@@ -224,7 +252,14 @@
                     "type": "talk"
                 },
                 {
-                    "time": "3:00 PM - 5:00 PM",
+                    "time": "3:00 PM - 4:00 PM",
+                    "title": "Darkweb and Tor - Monitoring using OSINT tools",
+                    "speaker": "Prof. Emmanuel Pilli (MNIT Jaipur, India)",
+                    "description": "",
+                    "type": "talk"
+                },
+                {
+                    "time": "4:00 PM - 5:00 PM",
                     "title": "Session",
                     "speaker": "Dr. Yasir Ali Shah (Ulster University, UK)",
                     "description": "An advanced session on malware analysis, covering detection and prevention techniques to combat evolving cyber threats.",

@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button'
 
 export default function RegistrationsFilled() {
     return (
-        <section className="w-full py-16 md:py-24">
+        <section className="w-full py-16">
             <div className="container mx-auto cursor-default px-4">
                 <div className="mx-auto max-w-3xl text-center">
                     {/* Header with animated badge */}
@@ -44,7 +44,7 @@ export default function RegistrationsFilled() {
                         transition={{ duration: 0.5, delay: 0.4 }}
                         className="mb-8 text-lg text-zinc-400 md:text-xl"
                     >
-                        We&apos;ve reached maximum capacity for Hack The Breach{' '}
+                        We&rsquo;ve reached maximum capacity for Hack The Breach{' '}
                         {new Date().getFullYear()}. Thank you for your interest
                         in our event!
                     </motion.p>
@@ -116,7 +116,7 @@ export default function RegistrationsFilled() {
                     >
                         <p className="text-zinc-400">
                             Follow us on social media for highlights and
-                            announcements about next year&lapos;s event.
+                            announcements about next year&rsquo;s event.
                         </p>
 
                         <div className="flex justify-center space-x-4">

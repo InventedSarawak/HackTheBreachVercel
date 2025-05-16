@@ -106,7 +106,7 @@ export default function Hackathon() {
     ]
 
     return (
-        <section id="hackathon" className="py-16 md:py-24">
+        <section id="hackathon" className="py-16">
             <div className="container mx-auto px-4">
                 {/* Container with positioning context */}
                 <div className="relative rounded-xl border border-zinc-800">
@@ -145,9 +145,11 @@ export default function Hackathon() {
                                     </p>
                                 </div>
 
-                                <div className="mt-4 md:mt-0">
-                                    <Link href={'/register/closed'}>
-                                        <Button size="lg" variant="default">
+                                <div className="mt-4 md:mt-0 ">
+                                    <Link
+                                        href={'https://ctf.hackthebreach.xyz'}
+                                    >
+                                        <Button size="lg" variant="default" className='cursor-pointer'>
                                             {hackathonData.registerButtonText}{' '}
                                             <ArrowUpRight className="ml-2 h-4 w-4" />
                                         </Button>
@@ -206,8 +208,6 @@ export default function Hackathon() {
                                     {hackathonData.prizePool.description}
                                 </p>
                             </div>
-
-                            
                         </motion.div>
 
                         {/* Challenge Categories */}

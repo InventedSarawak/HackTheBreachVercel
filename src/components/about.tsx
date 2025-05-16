@@ -245,7 +245,7 @@ export default function About() {
     return (
         <section
             id="about"
-            className="cursor-default py-16 md:py-24"
+            className="cursor-default py-16"
             ref={sectionRef}
         >
             <div className="container mx-auto px-4">

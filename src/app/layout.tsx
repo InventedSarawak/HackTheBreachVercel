@@ -11,12 +11,13 @@ const spaceMono = Space_Mono({
 export const metadata: Metadata = {
     title: {
         template: '%s | Hack The Breach',
-        default: 'Hack The Breach'
+        default: 'Hack The Breach | Cybersecurity Workshop'
     },
-    description: 'An online workshop for cybersecurity enthusiasts!',
-    metadataBase: new URL('https://hacktthebreach.xyz'),
+    description:
+        'An online workshop for cybersecurity enthusiasts! Join us in shaping the future of cybersecurity. Hack The Breach brings together the brightest minds to tackle tomorrow’s security challenges today.',
+    metadataBase: new URL('https://hackthebreach.xyz'),
     icons: {
-        icon: [{ url: '/favicon.svg' }],
+        icon: [{ url: '/apple-icon.jpg' }],
         shortcut: [{ url: '/apple-icon.jpg' }]
     },
     keywords: [
@@ -39,12 +40,16 @@ export const metadata: Metadata = {
         'Compete in CTF',
         'Hack and secure',
         'Solve cybersecurity challenges',
-        'Improve hacking skills'
+        'Improve hacking skills',
+        'Hack The Breach'
     ],
     openGraph: {
         description: 'An online workshop for cybersecurity enthusiasts!',
         title: 'Hack The Breach',
-        images: ['apple-icon.jpg']
+        images: ['apple-icon.jpg'],
+        siteName: 'Hack The Breach',
+        locale: 'en_US',
+        type: 'website'
     }
 }
 

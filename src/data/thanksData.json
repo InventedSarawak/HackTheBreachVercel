@@ -5,21 +5,23 @@
     "thanks": [
         {
             "id": "college",
-            "name": "IIIT Sri City, Chittoor",
+            "name": "IIIT Sri City",
             "role": "Organized By",
+            "designation": "Chittoor",
             "image": "/thanks/iiit.png"
         },
         {
             "id": "director",
             "name": "Prof. M. V. Kartikeyan",
-            "designation": "Director, IIIT Sri City, Chittoor",
+            "designation": "Director, IIIT Sri City",
             "role": "Chief Patron",
             "image": "/thanks/kartikeyan.png"
         },
         {
             "id": "coordinator",
             "name": "Dr. Neha Agrawal",
-            "role": "Faculty Coordinator",
+            "designation": "Assistant Professor, IIIT Sri City",
+            "role": "Convener",
             "image": "/thanks/neha_maam.jpg"
         }
     ]

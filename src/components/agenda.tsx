@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
+import React, { useState, useMemo } from 'react'
 import { motion } from 'framer-motion'
 import {
     ArrowRight,
@@ -50,7 +50,7 @@ interface AgendaData {
     settings: AgendaSettings
 }
 
-// Type assertion for imported JSON
+// Type assertion for imported JSON - move outside component
 const agendaData = agendaDataRaw as unknown as AgendaData
 
 // Icon mapping for event types
@@ -82,32 +82,139 @@ const EventTypeIcon = ({ type }: { type: EventType }) => {
 
 export default function Agenda() {
     const [showAllDays, setShowAllDays] = useState(false)
-    const [agendaDays, setAgendaDays] = useState<AgendaDay[]>([])
-    const [loading, setLoading] = useState(true)
+    // Add test mode state variables
+    const [isTestMode, setIsTestMode] = useState(false)
+    const [testDate, setTestDate] = useState<string>('')
 
-    // Process data on component mount
-    useEffect(() => {
-        try {
-            // Set agenda days from the JSON data
-            setAgendaDays(agendaData.days)
-        } catch (error) {
-            console.error('Error loading agenda data:', error)
-            // Set fallback data if needed
-        } finally {
-            setLoading(false)
+    // Calculate visible days based on current date or test date
+    const visibleDays = useMemo(() => {
+        if (showAllDays) {
+            return agendaData?.days || []
         }
-    }, [])
 
-    // Determine visible days based on showAllDays state
-    const visibleDays = showAllDays ? agendaDays : agendaDays.slice(0, 3)
+        // If no days data, return empty array
+        if (!agendaData?.days?.length) {
+            return []
+        }
 
-    if (loading) {
-        return <div>Loading agenda...</div>
-    }
+        // Use test date if in test mode, otherwise use current date
+        const today = isTestMode && testDate ? new Date(testDate) : new Date()
+
+        today.setHours(0, 0, 0, 0) // Normalize to start of day
+
+        // Create array with parsed dates and original indices
+        const daysWithDates = agendaData.days.map((day, index) => {
+            try {
+                // Parse date format like "December 15" or "January 5, 2025"
+                const dateParts = day.date.split(',')[0].trim().split(' ')
+                const monthName = dateParts[0]
+                const dayNum = parseInt(dateParts[1])
+                const year = today.getFullYear() // Assume current year
+
+                // Get month number from month name
+                const month = new Date(`${monthName} 1, 2000`).getMonth()
+
+                const date = new Date(year, month, dayNum)
+                date.setHours(0, 0, 0, 0)
+
+                return {
+                    day,
+                    parsedDate: date,
+                    index
+                }
+            } catch (e) {
+                console.error(`Error parsing date: ${day.date}`, e)
+                return {
+                    day,
+                    parsedDate: new Date(0), // Default to epoch
+                    index
+                }
+            }
+        })
+
+        // Sort by date (earliest first)
+        daysWithDates.sort(
+            (a, b) => a.parsedDate.getTime() - b.parsedDate.getTime()
+        )
+
+        // Find today or the next upcoming day
+        let startIndex = -1
+
+        for (let i = 0; i < daysWithDates.length; i++) {
+            if (daysWithDates[i].parsedDate >= today) {
+                startIndex = i
+                break
+            }
+        }
+
+        // If all days are in the past or parsing failed, start with the first day
+        if (startIndex === -1 && daysWithDates.length > 0) {
+            startIndex = 0
+        }
+
+        // Get three consecutive days from the starting point
+        const result: AgendaDay[] = [] // Explicitly type the array
+        const totalDays = daysWithDates.length
+
+        for (let i = 0; i < Math.min(3, totalDays); i++) {
+            const idx = (startIndex + i) % totalDays
+            result.push(daysWithDates[idx].day)
+        }
+
+        return result
+    }, [showAllDays, isTestMode, testDate])
 
     return (
-        <section id="agenda" className="mb-6 py-16 md:py-24">
+        <section id="agenda" className="mb-6 py-16">
             <div className="container mx-auto px-4">
+                {/* Test Controls - Only visible during development */}
+                {process.env.NODE_ENV !== 'production' && (
+                    <div className="mb-8 rounded-md border border-zinc-700 bg-zinc-900 p-4">
+                        <h3 className="text-primary mb-2 font-bold">
+                            Date Testing Controls
+                        </h3>
+                        <div className="flex flex-wrap items-center gap-4">
+                            <label className="flex items-center gap-2">
+                                <input
+                                    type="checkbox"
+                                    checked={isTestMode}
+                                    onChange={(e) =>
+                                        setIsTestMode(e.target.checked)
+                                    }
+                                    className="h-4 w-4 rounded border-zinc-600 bg-zinc-800"
+                                />
+                                <span>Test Mode</span>
+                            </label>
+
+                            {isTestMode && (
+                                <>
+                                    <input
+                                        type="date"
+                                        value={testDate}
+                                        onChange={(e) =>
+                                            setTestDate(e.target.value)
+                                        }
+                                        className="rounded border border-zinc-700 bg-zinc-800 px-3 py-1"
+                                    />
+                                    <button
+                                        onClick={() => setTestDate('')}
+                                        className="rounded border border-zinc-700 bg-zinc-800 px-3 py-1 text-sm hover:bg-zinc-700"
+                                    >
+                                        Reset
+                                    </button>
+                                </>
+                            )}
+                        </div>
+                        {isTestMode && (
+                            <div className="mt-2 text-sm text-zinc-400">
+                                {testDate
+                                    ? `Testing with date: ${new Date(testDate).toDateString()}`
+                                    : "No test date selected. Using today's date."}
+                            </div>
+                        )}
+                    </div>
+                )}
+
                 {/* Section Header */}
                 <div className="mb-12 flex flex-col items-center justify-center gap-2 text-center">
                     <motion.div
@@ -169,15 +276,18 @@ export default function Agenda() {
                                                         </div>
 
                                                         {/* Title with type icon */}
-                                                        <div className="mb-2 flex items-center gap-2">
-                                                            <EventTypeIcon
-                                                                type={
-                                                                    event.type
-                                                                }
-                                                            />
+                                                        <div className="relative mb-2">
+                                                            <div className="float-left mt-1.5 mr-3">
+                                                                <EventTypeIcon
+                                                                    type={
+                                                                        event.type
+                                                                    }
+                                                                />
+                                                            </div>
                                                             <h3 className="text-lg font-medium text-white">
                                                                 {event.title}
                                                             </h3>
+                                                            <div className="clear-both"></div>
                                                         </div>
 
                                                         {/* Speaker if available */}
@@ -211,7 +321,7 @@ export default function Agenda() {
                 </div>
 
                 {/* Toggle Button */}
-                {agendaDays.length > 3 && (
+                {agendaData.days.length > 3 && (
                     <div className="mt-8 text-center">
                         <Button
                             variant={showAllDays ? 'secondary' : 'outline'}
