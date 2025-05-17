@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Head from 'next/head'
 import { Space_Mono } from 'next/font/google'
 import './globals.css'
 
@@ -19,6 +20,9 @@ export const metadata: Metadata = {
     icons: {
         icon: [{ url: '/apple-icon.jpg' }],
         shortcut: [{ url: '/apple-icon.jpg' }]
+    },
+    twitter: {
+        title: 'Hack The Breach'
     },
     keywords: [
         'Cybersecurity workshop',
@@ -60,6 +64,20 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en" suppressHydrationWarning>
+            <Head>
+                {/* Structured Data */}
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: JSON.stringify({
+                            '@context': 'https://schema.org',
+                            '@type': 'WebSite',
+                            name: 'Hack The Breach',
+                            url: 'https://hackthebreach.xyz'
+                        })
+                    }}
+                />
+            </Head>
             <body className={`${spaceMono.variable} dark antialiased`}>
                 {children}
             </body>
